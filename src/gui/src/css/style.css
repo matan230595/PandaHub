@@ -5667,6 +5667,25 @@ html.dark-mode .usage-table-show-less:hover {
 
 .window-recover-password.window-cover-page .window-body{
     background-color: white !important;
+
+/* RTL code */
+
+.window-body[dir="rtl"] {
+    flex-direction: column-reverse;
+}
+
+.window-titlebar[dir="rtl"] {
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
 }
 .window-recover-password .window-body{
     display: flex;
