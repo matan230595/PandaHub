@@ -3611,6 +3611,60 @@ input.myapps-search::placeholder {
 
 @keyframes files-loading-spin {
     0% { transform: rotate(0deg); }
+
+/* RTL code for dashboard */
+
+.context-menu[dir="rtl"] .context-menu-item {
+    flex-direction: row-reverse;
+}
+
+.context-menu[dir="rtl"] .submenu-arrow {
+    transform: rotate(180deg);
+}
+
+.files-view[dir="rtl"] {
+    flex-direction: row-reverse;
+}
+
+.file-list[dir="rtl"] .file-item {
+    flex-direction: row-reverse;
+}
+
+.toolbar[dir="rtl"] {
+    flex-direction: row-reverse;
+}
+
+.breadcrumb[dir="rtl"] {
+    flex-direction: row-reverse;
+}
+
+.breadcrumb[dir="rtl"] .breadcrumb-separator {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     100% { transform: rotate(360deg); }
 }
 
